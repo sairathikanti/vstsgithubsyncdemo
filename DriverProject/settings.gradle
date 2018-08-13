@@ -1,0 +1,9 @@
+
+
+include   ':ChildProject'
+project(':ChildProject').projectDir = new File(settingsDir, '../ChildProject')
+include   ':Demo'
+project(':Demo').projectDir = new File(settingsDir, '../Demo')
+include   ':SubProject'
+project(':SubProject').projectDir = new File(settingsDir, '../SubProject')
+rootProject.name = 'DriverProject'
