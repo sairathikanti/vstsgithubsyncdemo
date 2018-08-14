@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'maven'
-
+archivesBaseName = 'DriverProject'
 group = 'com.amazonaws.lambda'
 version = '1.0.0'
 
@@ -25,9 +25,4 @@ dependencies {
     compile group: 'com.amazonaws', name: 'aws-lambda-java-core', version:'1.1.0'
     testCompile group: 'junit', name: 'junit', version:'4.12'
 }
-jar {
-    manifest{
-        attributes ("Fw-Version" : "2.50.00", "${parent.manifestSectionName}")
-    }
-    baseName 'DriverProject'
-}
+
