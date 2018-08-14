@@ -29,6 +29,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 jar {
-   
-    baseName 'SubProject'
+    manifest{
+        attributes ("Fw-Version" : "2.50.00", "${parent.manifestSectionName}")
+    }
+    baseName 'abc'
 }
