@@ -26,6 +26,8 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version:'4.12'
 }
 jar {
-   
-    baseName 'DriverProject'
+    manifest{
+        attributes ("Fw-Version" : "2.50.00", "${parent.manifestSectionName}")
+    }
+    baseName 'abc'
 }
