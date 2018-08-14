@@ -16,8 +16,10 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
-jar{
-archivesBaseName = 'myjarname'
+project(':CodeTools_dummydriver-true') {
+    ext.dummyDriver = true
+    archivesBaseName = "dummydriver-true"
+    version= ""
 }
 dependencies {
  // project compile('ChildProject')
