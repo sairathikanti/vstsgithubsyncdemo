@@ -7,7 +7,7 @@ public class Place {
 		public static String getPlace() {
 			
 			System.out.print("printing from Demo project...! "+Name.getName()+" ");
-			//return "Adilabad";
+			return "Adilabad";
 			
 		}
 	}
