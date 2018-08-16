@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazonaws.lambda.demo.LambdaFunctionHandlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-08-16T05:52:17" hostname="K100058" time="0.007">
+  <properties/>
+  <testcase name="testLambdaFunctionHandler" classname="com.amazonaws.lambda.demo.LambdaFunctionHandlerTest" time="0.007"/>
+  <system-out><![CDATA[printing from lambda 1sai 
+printing from Demo project...! sai printing from lambda 2Adilabad 
+]]></system-out>
+  <system-err><![CDATA[Input: null
+]]></system-err>
+</testsuite>

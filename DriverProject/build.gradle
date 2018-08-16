@@ -1,15 +1,14 @@
 apply plugin: 'java'
-apply plugin: 'maven'
-
-group = 'com.amazonaws.lambda'
-version = '1.0.0'
-
-description = """"""
-
+apply plugin: 'eclipse'
+ 
 sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'DriverProject',
+                   'Implementation-Version': version
+    }
+}
 
 repositories {
         
