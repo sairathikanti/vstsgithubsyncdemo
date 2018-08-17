@@ -14,6 +14,5 @@ include 'shared'
 include 'api'
 include 'services:webservice'
 */
-include   ':ChildProject'
-project(':ChildProject').projectDir = new File(settingsDir, '../ChildProject')
-rootProject.name = 'Demo'
+
+rootProject.name = 'Test'
