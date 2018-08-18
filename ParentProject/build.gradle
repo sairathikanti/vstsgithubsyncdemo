@@ -4,7 +4,7 @@ apply plugin: 'maven'
 version = '1.0'
 jar {
     manifest {
-        attributes 'Implementation-Title': 'ParentProject',
+        attributes 'Implementation-Title': 'Gradle Quickstart',
                    'Implementation-Version': version
     }
 }
