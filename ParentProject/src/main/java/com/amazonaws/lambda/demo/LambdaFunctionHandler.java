@@ -13,7 +13,7 @@ public class LambdaFunctionHandler implements RequestHandler<Object, String> {
         // TODO: implement your handler
         
         System.out.println(Address.getAddress());
-        return "Hello from Lambda!";
+       // return "Hello from Lambda!";
     }
 
 }
