@@ -1,6 +1,6 @@
 
-include ':Test'
-project(':Test').projectDir = new File(settingsDir, '../Test')
+//include ':Test'
+//project(':Test').projectDir = new File(settingsDir, '../Test')
 
 
 
