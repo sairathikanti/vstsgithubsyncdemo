@@ -1,7 +1,0 @@
-
-//include ':Test'
-//project(':Test').projectDir = new File(settingsDir, '../Test')
-
-
-
-rootProject.name = 'ParentProject'
